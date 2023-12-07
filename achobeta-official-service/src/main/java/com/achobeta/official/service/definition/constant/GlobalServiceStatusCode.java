@@ -1,4 +1,4 @@
-package com.achobeta.official.service.common;
+package com.achobeta.official.service.definition.constant;
 
 import lombok.Getter;
 
@@ -9,7 +9,7 @@ import lombok.Getter;
  * and do not occupy other business modules when defining them.
  * </span>
  *
- * @author jettcc in 2023/10/1
+ * @author jettcc in 2023/12/07
  * @version 1.0
  */
 @Getter

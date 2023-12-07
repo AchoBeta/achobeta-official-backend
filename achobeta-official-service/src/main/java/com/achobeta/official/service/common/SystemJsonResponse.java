@@ -1,5 +1,6 @@
 package com.achobeta.official.service.common;
 
+import com.achobeta.official.service.definition.constant.GlobalServiceStatusCode;
 import lombok.NoArgsConstructor;
 
 import java.util.LinkedHashMap;
@@ -13,7 +14,7 @@ import java.util.Optional;
  * </p>
  * </span>
  *
- * @author jettcc in 2023/09/30
+ * @author jettcc in 2023/12/07
  * @version 1.0
  */
 @NoArgsConstructor
