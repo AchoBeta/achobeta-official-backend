@@ -1,3 +1,14 @@
 
 server:
   port: 8989
+
+spring:
+  profiles:
+    # debug in local, use application-local.yaml
+    default: local
+  datasource:
+    url: jdbc:mysql://rm-wz9i5gw9n7zm8mj4hro.mysql.rds.aliyuncs.com:3306/achobeta_infra?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username:
+    password:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
