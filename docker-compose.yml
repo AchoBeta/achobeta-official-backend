@@ -1,0 +1,12 @@
+version: '3'
+services:
+  official:
+    container_name: official-service #配置容器名
+    build:
+      context: .
+      dockerfile: ./dockerfile #指定dockerFile文件
+    image: java/official-service:8.0.0 # 指定镜像名
+    ports:
+      - "8989:8989" # 暴露端口
+    volumes:
+      - ./logs:/logs # 创建容器数据卷

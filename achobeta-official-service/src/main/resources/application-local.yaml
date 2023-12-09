@@ -1,0 +1,8 @@
+spring:
+  security:
+    user:
+#      name: "jettcc"
+#      password: "$2a$10$FzwjxqvdR0c9/ScWHnJVMeSQYU/4xazCKVrz/.3/zhps6GtYlI966"
+  datasource:
+    password: "AchoBeta@123"
+    username: "achobeta"

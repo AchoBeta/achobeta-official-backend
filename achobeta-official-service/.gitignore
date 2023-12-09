@@ -31,5 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
-**/**/resources/*-local.yaml
+
+!**/**/resources/*-local.yaml
 **/src/**/resources/*-local.yaml
