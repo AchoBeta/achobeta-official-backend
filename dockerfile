@@ -1,7 +1,7 @@
 # 以jdk8为基础镜像
 FROM openjdk:21
 # 描述
-LABEL description="Java 21"
+LABEL description="official service"
 # 暴露接口
 EXPOSE 8989
 # 将主机中的jar包添加到镜像中
