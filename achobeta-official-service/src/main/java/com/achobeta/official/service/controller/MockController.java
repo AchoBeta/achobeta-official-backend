@@ -24,4 +24,9 @@ public class MockController {
     public  SystemJsonResponse startGet() {
         return SystemJsonResponse.SYSTEM_SUCCESS("mock get success !");
     }
+
+    @GetMapping("/test")
+    public  SystemJsonResponse starttest() {
+        return SystemJsonResponse.SYSTEM_SUCCESS("mock test success !");
+    }
 }
